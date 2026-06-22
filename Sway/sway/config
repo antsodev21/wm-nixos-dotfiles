@@ -34,8 +34,13 @@
   # Establece el Wallpaper
   output * bg /home/antsoftware21/Pictures/Wallpapers/Niko-OneShot.png fill
 
-  # Le da al Segundo Monitor la Posicion y la Resolucion
-  output HDMI-A-1 resolution 1920x1080 position 1920,0
+  # Le da al Segundo Monitor la Posicion y la Resolucion 
+
+    # Monitor HDMI
+    output HDMI-A-1 position 1920,-490 resolution 1920x1080
+
+    # Pantalla Interna
+    output eDP-1 pos 0 0 res 1920x1080
 
   # Puedes obtener los nombres de tus Salidas con el comando swaymsg -t get_outputs
 
