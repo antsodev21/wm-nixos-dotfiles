@@ -34,9 +34,9 @@
           "cpu",
           "memory",
           "temperature",
-          "tray",
           "battery",
-          "battery#bat2"
+          "battery#bat2",
+          "tray"
       ],
 
     // Configuracion de los Modulos
