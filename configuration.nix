@@ -191,8 +191,8 @@
     vlc
    
     # Mis Programas :
-    librewolf
-    discord
+    vivaldi
+    vesktop
     telegram-desktop
     obs-studio
     gapless
@@ -225,3 +225,4 @@
   # Aqui Habia un Comentario Gigante, Lo que queria decir, NO TOQUES ESTO XD.
   system.stateVersion = "26.05";
 }
+
