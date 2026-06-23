@@ -19,7 +19,7 @@
   set $file nemo
 
   # Establece el Menu de Alicaciones
-  set $browser librewolf
+  set $browser vivaldi
 
 # Autoarranque:
 
@@ -36,11 +36,14 @@
 
   # Le da al Segundo Monitor la Posicion y la Resolucion 
 
-    # Monitor HDMI
-    output HDMI-A-1 position 1920,-490 resolution 1920x1080
+    # Pantalla Externa
+    output HDMI-A-1 position 0,0 resolution 1920x1080
 
-    # Pantalla Interna
-    output eDP-1 pos 0 0 res 1920x1080
+    # Pantalla Interna (Asus Vivobook)
+    output eDP-1 position -1920,490 resolution 1920x1080
+
+    # Pantalla Interna (Dell Latitude)
+    # output eDP-1 position -1366,620 resolution 1366x768
 
   # Puedes obtener los nombres de tus Salidas con el comando swaymsg -t get_outputs
 
