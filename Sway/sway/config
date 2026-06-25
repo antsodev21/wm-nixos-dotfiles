@@ -36,14 +36,17 @@
 
   # Le da al Segundo Monitor la Posicion y la Resolucion 
 
-    # Pantalla Externa
-    output HDMI-A-1 position 0,0 resolution 1920x1080
+    # Pantalla Externa (Asus Vivobook)
+    output HDMI-A-1 position 1920,0 resolution 1920x1080
 
     # Pantalla Interna (Asus Vivobook)
-    output eDP-1 position -1920,490 resolution 1920x1080
+    output eDP-1 position 0,490 resolution 1920x1080
+
+    # Pantalla Externa (Dell Latitude)
+    # output HDMI-A-1 position 1366,0 resolution 1920x1080
 
     # Pantalla Interna (Dell Latitude)
-    # output eDP-1 position -1366,620 resolution 1366x768
+    # output eDP-1 position 0,620 resolution 1366x768    
 
   # Puedes obtener los nombres de tus Salidas con el comando swaymsg -t get_outputs
 
