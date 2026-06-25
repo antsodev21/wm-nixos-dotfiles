@@ -22,6 +22,7 @@
 
   # Esto Define el Nombre del PC en la Red.
   networking.hostName = "NixOS-Vivobook-15"; 
+  # networking.hostName = "NixOS-Latitude-7280";
 
   # Habilita el Servicio Network Manager.
   networking.networkmanager.enable = true;
@@ -33,6 +34,10 @@
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
 
+  # Habilita el Servicio de Montaje de Discos
+  services.udisks2.enable = true;
+  services.gvfs.enable = true;
+  
   # Esto Establece tu Zona Horaria.
   time.timeZone = "Europe/Madrid";
 
