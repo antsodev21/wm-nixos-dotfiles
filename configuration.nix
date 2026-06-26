@@ -191,9 +191,7 @@
     cava
     podman
     distrobox
-    filezilla
     nicotine-plus
-    vlc
    
     # Mis Programas :
     vivaldi
@@ -201,6 +199,9 @@
     telegram-desktop
     obs-studio
     gapless
+    nocturne
+    filezilla
+    vlc
     kdePackages.kdenlive
     vscodium
     obsidian
