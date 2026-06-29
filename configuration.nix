@@ -198,7 +198,6 @@
     vesktop
     telegram-desktop
     obs-studio
-    gapless
     nocturne
     filezilla
     vlc
