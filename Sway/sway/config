@@ -32,7 +32,7 @@
 # Configuracion de la Salida:
 
   # Establece el Wallpaper
-  output * bg /home/antsoftware21/Pictures/Wallpapers/Niko-OneShot.png fill
+  output * bg /home/antsoftware21/Pictures/Wallpapers/Escritorio/Niko-OneShot.png fill
 
   # Le da al Segundo Monitor la Posicion y la Resolucion 
 
@@ -181,7 +181,7 @@
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
     # Tecala para tomar una Captura de Pantalla
-    bindsym Print exec mkdir -p ~/Pictures/Screenshots && grim ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%m-%s).png
+    bindsym Print exec mkdir -p ~/Pictures/Screenshots && grim ~/Pictures/Screenshots/Escritorio/$(date +%Y-%m-%d_%H-%m-%s).png
 
     # Inicia el Menu de Opciones de Apagado
     bindsym XF86PowerOff exec $powermenu
