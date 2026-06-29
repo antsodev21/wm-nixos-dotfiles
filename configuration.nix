@@ -138,7 +138,7 @@
   users.users.antsoftware21 = {
     isNormalUser = true;
     description = "Antsoftware21";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd" "kvm" "podman" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" "kvm" "podman" "adbusers" ];
 
     # Rangos de subUID y subGID para contenedores rootless
     subUidRanges = [ { count = 65536; startUid = 100000; } ];
@@ -206,6 +206,7 @@
     obsidian
     libresprite
     virt-manager
+    android-tools
     ];
 
   # Aqui van las Fuentes Tipograficas que quieras.
